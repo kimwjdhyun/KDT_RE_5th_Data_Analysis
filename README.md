@@ -86,17 +86,17 @@
 ```
 01_DataAnalysis/
 │
-├── data/                          # 데이터 디렉토리
-│   ├── raw/                       # 원본 데이터
-│   │   ├── energy/                # 에너지 발전량 데이터
+├── data/                       
+│   ├── raw/                    
+│   │   ├── energy/               
 │   │   │   ├── 신·재생_에너지생산량_강원_20251215135106.csv
 │   │   │   ├── 지역별_신·재생에너지_보급용량_발전누적__20251215134828.csv
 │   │   │   ├── 지역별_신·재생에너지_보급용량_발전신규__20251215135000.csv
 │   │   │   └── 한국에너지공단_기초지자체별 신재생에너지 보급 현황.csv
-│   │   ├── weather/               # 기상 데이터
-│   │   └── policy/                # 정책 데이터
+│   │   ├── weather/               
+│   │   └── policy/                
 │   │
-│   └── processed/                 # 전처리된 데이터
+│   └── processed/                 
 │       ├── climate_yearly.xlsx
 │       ├── 강원도_월별강수량_통합.xlsx
 │       ├── 강원도_월별기온_통합.xlsx
@@ -106,7 +106,7 @@
 │       ├── 신재생에너지_보급통계_발전량(광역)_(2021-2023).xlsx
 │       └── 한국에너지공단_기초지자체별 신재생에너지 보급 현황.xlsx
 │
-├── docs/                          # 참고 문서 및 정책 자료
+├── docs/                          
 │   ├── (책자) 2023년 신재생에너지 보급통계(2024년 공표)2.pdf
 │   ├── 2024 RE100 Annual disclosure report (3).pdf
 │   ├── green_new_deal_report.pdf
@@ -115,14 +115,14 @@
 │   ├── [25-32] RE100 산업단지 최적지는 강원도_최종.pdf
 │   └── (기타 통계 및 정책 문서들)
 │
-├── scripts/                       # 스크립트 디렉토리
-│   ├── crawling/                  # 웹 크롤링 스크립트
+├── scripts/                    
+│   ├── crawling/                
 │   │   ├── energy_analysis.ipynb
 │   │   ├── energy_crawl.ipynb
 │   │   ├── web_crawl.ipynb
 │   │   └── 강원도_신재생에너지_2023년.csv
 │   │
-│   └── preprocessing/             # 데이터 전처리 스크립트
+│   └── preprocessing/             
 │       └── re100_graph.ipynb
 │
 ├── results/                       # 분석 결과물
@@ -137,27 +137,23 @@
 │   │   ├── 산업별 평균 re100달성률.png
 │   │   └── 그린뉴딜 해외사례 비교 그래프.png
 │   │
-│   └── tables/                    # 통계 테이블
+│   └── tables/                 
+│                 
 │
-├── output/                        # 출력 디렉토리
-│   ├── figures/                   # 추가 그래프
-│   ├── maps/                      # 지도 시각화
-│   └── reports/                   # 분석 보고서
+├── notebooks/                   
 │
-├── notebooks/                     # Jupyter Notebook
-│
-├── _artifacts/                    # 프로젝트 아티팩트
+├── _artifacts/                   
 │   ├── long_format_DF(sample).ipynb
 │   ├── long_merge.py
 │   ├── preprocess_outputs/
 │   └── schema.md
 │
-├── Project Plan/                  # 프로젝트 계획 문서
+├── Project Plan/                
 │
-├── 00_energy.ipynb               # 메인 분석 노트북
-├── sample.ipynb                  # 샘플 분석
+├── 00_energy.ipynb             
+├── sample.ipynb               
 ├── .gitignore
-└── README.md                     # 이 파일
+└── README.md                 
 ```
 
 ---
