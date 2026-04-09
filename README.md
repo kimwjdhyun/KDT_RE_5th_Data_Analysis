@@ -2,10 +2,10 @@
 
 > 기후·입지·정책 데이터를 기반으로 지역별 최적 에너지 전략을 도출한 데이터 분석 프로젝트
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square)](https://python.org)
-[![Pandas](https://img.shields.io/badge/Data-Pandas-lightgrey?style=flat-square)](https://pandas.pydata.org)
-[![Selenium](https://img.shields.io/badge/Crawling-Selenium-green?style=flat-square)](https://selenium.dev)
-[![Scipy](https://img.shields.io/badge/Stats-Scipy-orange?style=flat-square)](https://scipy.org)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)](https://selenium.dev)
+[![Scipy](https://img.shields.io/badge/Scipy-8CAAE6?style=flat-square&logoColor=white)](https://scipy.org)
 
 ---
 
@@ -112,6 +112,16 @@ RE100 논의는 정성적 판단 중심이며, 어떤 에너지가 실제로 효
 | 통계 분석 | Scipy (Pearson r · p-value) |
 | 시각화 | Matplotlib · Seaborn · Folium |
 | 개발 환경 | Python · Jupyter Notebook |
+
+---
+
+## 🚧 한계 및 개선 방향
+
+| 한계 | 개선 방향 |
+|------|-----------|
+| 관측소 데이터 강릉 중심 편중 | 다지점 관측소 데이터 확보 |
+| 연간 데이터 3개년 한정 | 장기 데이터 수집으로 추세 신뢰도 향상 |
+| 지역별 기후-발전량 매핑 정밀도 부족 | 행정구역별 관측소 정밀 매핑 |
 
 ---
 
